@@ -1,4 +1,4 @@
-# some important commands for create a conda virtual enviroment
+# some important commands for creating a conda virtual enviroment
 
 ##create a new virtual environment
 
