@@ -14,17 +14,49 @@ the python command indicate which version of python would be used
 
 the anaconda command creates a complete copy of the anaconda environment
 
-`source activate djangotest`
+###activte the virtual env
 
-this command activate the the virtual enviroment
+`source activate envName`
 IMPORTANT = terminal must be located in the folder where the env is installed
+
+the environment name will show at the beginning of the terminal line
+
+`(envName) pcname:folder User$`
+
+to see which virtual enviroments are installed in the anaconda folder
+
+`conda info --envs`
+
+deactivate the actual Env
+
+`source deactivate`
+
 
 ## django
 
-`pip install Django==x.x`
-
 this command install django in the virtual enviroment
 
-`$ django-admin.py startproject tryTen`
+`pip install Django==x.x`
 
-start a new django projject
+start a new django project
+IMPORTAT= terminal must be located in the folder where the env is installed
+
+`$ django-admin.py startproject projectname`
+
+create other files including the database
+IMPORTANT = this info is located in the file settings.py
+
+`python manage.py migrate`
+
+create a superuser
+will aks for a name, email and password
+
+`python manage.py createsuperuser`
+
+run server
+
+`python manage.py runserver`
+
+
+
+
