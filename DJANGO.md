@@ -1,5 +1,7 @@
 # some important commands for creating a conda virtual enviroment
 
+## conda virtual enviroment
+
 ### create a new virtual environment
 
 `conda create --prefix=/users/.../envName python=x.x anaconda`
@@ -20,7 +22,7 @@ the anaconda command creates a complete copy of the anaconda environment
 
 you can change --all with an specific library already installed
 
-###activte the virtual env
+### activte the virtual env
 
 `source activate envName`
 IMPORTANT = terminal must be located in the folder where the env is installed
@@ -36,7 +38,6 @@ to see which virtual enviroments are installed in the anaconda folder
 deactivate the actual Env
 
 `source deactivate`
-
 
 ## django
 
