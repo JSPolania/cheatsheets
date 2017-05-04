@@ -14,6 +14,12 @@ the python command indicate which version of python would be used
 
 the anaconda command creates a complete copy of the anaconda environment
 
+### delete a virtual enviroment
+
+`conda remove --prefix=/users/.../envName --all
+
+you can change --all with an specific library already installed
+
 ###activte the virtual env
 
 `source activate envName`
