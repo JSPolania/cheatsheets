@@ -1,6 +1,6 @@
 # some important commands for creating a conda virtual enviroment
 
-##create a new virtual environment
+### create a new virtual environment
 
 `conda create --prefix=/users/.../envName python=x.x anaconda`
 
