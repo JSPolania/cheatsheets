@@ -14,7 +14,7 @@ if you omit the command prefix, the virtual env will be created inside the env f
 
 the python command indicate which version of python would be used 
 
-the anaconda command creates a complete copy of the anaconda environment
+the anaconda command creates a complete copy of the anaconda environment. If you ommit anaconda, it will install pip and other few packages including sqlite
 
 ### delete a virtual enviroment
 
