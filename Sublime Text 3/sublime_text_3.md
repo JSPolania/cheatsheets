@@ -36,7 +36,9 @@ This package let you manage brackets and related
 
 This package give more options for manage folders
 
+## Instal advancedNewFile
 
+gives the option of creating new files in folders
 
 
 
