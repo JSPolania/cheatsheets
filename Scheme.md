@@ -50,6 +50,31 @@ You can tell if Scheme is evaluating something by looking at the run-light for t
 
 ## Files
 
+`ctrl + x -> ctrl + f` find a file (in minibuffer place)
+
+This option creates a new DIREC buffer
+
+`ctrl + x -> Ctrl d` open a list directory
+
+`ctrl + x -> ctrl + s` save the file.
+
+to create a new file, just type the command for find a new file and type the name of the new file. Edwin is located over the Users/user folder
+
+## Buffers
+
+`Ctrl + x -> k` kill a buffer
+
+# Direc buffer
+
+# REPL
+
+`(load "file path")` load file into REPL
+
+
+
+
+
+
 
 
 
